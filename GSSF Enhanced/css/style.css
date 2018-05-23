@@ -1,0 +1,14 @@
+﻿body {
+}
+
+#mainContent{
+    padding-top:20px;
+}
+
+#scoreTable {
+    table-layout: fixed;
+}
+
+#sketchpad{
+    border:solid 1px black;
+}

@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#signatureCanvas {
+    border: solid 1px black;
+    width: 578px;
+    height: 400px;
+}

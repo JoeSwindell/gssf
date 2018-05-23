@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "GSSF", "GSSF\GSSF.phpproj", "{2EF79E57-D4F9-4E16-A174-EEE83A91349C}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "GSSF Admin", "GSSF Admin\GSSF Admin.phpproj", "{5EA75862-A368-4076-A747-A12827D0920C}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "GSSF Enhanced", "GSSF Enhanced\GSSF Enhanced.phpproj", "{98611BDB-D2F3-49B5-A662-DD746FF95BD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EF79E57-D4F9-4E16-A174-EEE83A91349C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF79E57-D4F9-4E16-A174-EEE83A91349C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF79E57-D4F9-4E16-A174-EEE83A91349C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF79E57-D4F9-4E16-A174-EEE83A91349C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA75862-A368-4076-A747-A12827D0920C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA75862-A368-4076-A747-A12827D0920C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA75862-A368-4076-A747-A12827D0920C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA75862-A368-4076-A747-A12827D0920C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98611BDB-D2F3-49B5-A662-DD746FF95BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98611BDB-D2F3-49B5-A662-DD746FF95BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98611BDB-D2F3-49B5-A662-DD746FF95BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98611BDB-D2F3-49B5-A662-DD746FF95BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F4E6AC3-F0FA-4C4A-ABE3-33C6BE3DA19D}
+	EndGlobalSection
+EndGlobal

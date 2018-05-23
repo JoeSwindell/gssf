@@ -1,0 +1,24 @@
+﻿body {
+}
+
+#optionsTableDiv {
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+#pageTitleDiv{
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.goodWidth{
+    width: 100%;
+}
+#scoreTable{
+    table-layout:fixed;
+}
+
+.centerContent{
+    text-align:center;
+}
