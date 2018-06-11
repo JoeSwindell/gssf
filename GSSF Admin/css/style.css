@@ -1,22 +1,12 @@
-﻿body {
-}
-
-#optionsTableDiv {
-    padding-top: 10px;
-    padding-bottom:10px;
-}
-
-#pageTitleDiv{
-    text-align:center;
-    padding-top:20px;
-    padding-bottom:20px;
-}
-
-.goodWidth{
+﻿.goodWidth{
     width: 100%;
 }
-#scoreTable{
-    table-layout:fixed;
+#allShooterData {
+    table-layout: fixed;
+}
+#allShooterList td{
+    width:100px;
+
 }
 
 .centerContent{

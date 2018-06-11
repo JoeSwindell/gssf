@@ -1,0 +1,7 @@
+.centerContent {
+    text-align: center;
+}
+
+#locationResultsContainer, #dateResultsContainer, #seriesResultsContainer {
+    display: none;
+}

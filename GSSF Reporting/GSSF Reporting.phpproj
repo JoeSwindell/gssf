@@ -3,8 +3,8 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Name>GSSF Admin</Name>
-    <ProjectGuid>{5ea75862-a368-4076-a747-a12827d0920c}</ProjectGuid>
+    <Name>GSSF Reporting</Name>
+    <ProjectGuid>{ae8be710-e2d5-45e5-9aab-86fed03ee3fa}</ProjectGuid>
     <RootNamespace>
     </RootNamespace>
     <OutputType>Library</OutputType>
@@ -59,28 +59,33 @@
     </VisualStudio>
   </ProjectExtensions>
   <ItemGroup>
-    <Compile Include="handlers\databaseFunctions.php" />
-    <Compile Include="includes\alldatatable.php" />
-    <Compile Include="includes\navbar.php" />
-    <Compile Include="index.php" />
-    <Compile Include="includes\admin_footer.php" />
-    <Compile Include="includes\admin_header.php" />
-    <Compile Include="includes\config.inc.php" />
-    <Compile Include="lunchbox.php" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="css\" />
     <Folder Include="handlers\" />
-    <Folder Include="img\" />
-    <Folder Include="includes\" />
     <Folder Include="js\" />
+    <Folder Include="includes\" />
+    <Folder Include="img\" />
+    <Folder Include="modals\" />
     <Folder Include="Properties\" />
     <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="handlers\databaseFunctions.php" />
+    <Compile Include="includes\footer.php" />
+    <Compile Include="includes\header.php" />
+    <Compile Include="includes\config.inc.php" />
+    <Compile Include="modals\LastNameChangeModal.php" />
+    <Compile Include="modals\FirstNameChangeModal.php" />
+    <Compile Include="modals\DateChangeModal.php" />
+    <Compile Include="modals\DivisionChangeModal.php" />
+    <Compile Include="modals\LocationChangeModal.php" />
+    <Compile Include="modals\GunChangeModal.php" />
+    <Compile Include="includes\navbar.php" />
+    <Compile Include="index.php" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="css\style.css" />
     <Content Include="img\logo.svg" />
-    <Content Include="js\admin.js" />
+    <Content Include="js\reporting.js" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
   </ItemGroup>
 </Project>

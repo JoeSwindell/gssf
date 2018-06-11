@@ -1,6 +1,7 @@
 $(document).ready(function () {
     'use strict';
-    var DATABASE_FUNCTIONS = "http://68.1.204.10:1001/handlers/databaseFunctions.php";
+   // var DATABASE_FUNCTIONS = "http://68.1.204.9:1000/handlers/databaseFunctions.php";
+    var DATABASE_FUNCTIONS = "http://192.168.1.3:1111/handlers/databaseFunctions.php";
 
     // Giant array of all active shooters
     var ShooterListGlobal;
@@ -452,7 +453,7 @@ $(document).ready(function () {
         $('#previewSaveBtn').removeClass("btn-success").addClass("btn-danger").prop("disabled", true);
     }
     // Create the dropdown of active shooters
-    function CreateShooterList(shooterArray) {
+    function CreateShooterList(shooterArray) {        
         $('#shooterListSelect').empty();// Empty the select box because we are dynamically adding to it
         $('<option>').val('-1').text('Select Shooter').appendTo("#shooterListSelect"); // Add in a default -1 value of select shooter
        
@@ -625,12 +626,12 @@ $(document).ready(function () {
             cache: false,
             data: { "requestType": "activeShooters" },
             success: function (data) {
-                console.log("Shooter List Get Success");
+                console.log("Shooter List Get Success?");
             },
             error: function (response) {
                 console.log(response);
             }
-        }).done(function (data) {
+        }).done(function (data) {          
             CreateShooterList(data);
         });
     }
